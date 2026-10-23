@@ -1,0 +1,65 @@
+1111@DESKTOP-LNLI8C8 MINGW64 ~/Desktop/git-project/web_test_23.10-2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+1111@DESKTOP-LNLI8C8 MINGW64 ~/Desktop/git-project/web_test_23.10-2 (main)
+$ git branch
+  branch1
+* main
+
+1111@DESKTOP-LNLI8C8 MINGW64 ~/Desktop/git-project/web_test_23.10-2 (main)
+$ git log
+commit 2cc61bbe69d322b0c0b554fbd9c36d5db3d3de12 (HEAD -> main, origin/main, origin/HEAD)
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:18:27 2026 +0300
+
+    Create project.txt
+
+commit 071c2e82d187f1409f26802835322cc35e26b1ac
+Merge: 74eb75a 61b1a30
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:15:08 2026 +0300
+
+    conflict resolved
+
+commit 61b1a30e709263d30443f64d7e2731259f12d839 (origin/branch1, branch1)
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:11:36 2026 +0300
+
+    Update index.html in branch1
+
+commit 74eb75a122b67796e2620e2d0aec95bd0f4b7eda
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:09:28 2026 +0300
+
+     changes from the beginning
+
+commit a90f9ef652f5e1bb36478ac7746d2b29110bb52b
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:04:23 2026 +0300
+
+    more changes
+
+commit 147dcd6a0f19a6435d7e496574ca8dfdd1312f0f
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:02:15 2026 +0300
+
+    add new text about branch
+
+commit 30e8deb3541cb6e7db1840dbfec533c2d4276d15
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 09:54:00 2026 +0300
+
+    Initial commit
+
+1111@DESKTOP-LNLI8C8 MINGW64 ~/Desktop/git-project/web_test_23.10-2 (main)
+$ git log --merges
+commit 071c2e82d187f1409f26802835322cc35e26b1ac
+Merge: 74eb75a 61b1a30
+Author: Mariia Kravtsova <servistop99@gmail.com>
+Date:   Fri Oct 23 10:15:08 2026 +0300
+
+    conflict resolved
